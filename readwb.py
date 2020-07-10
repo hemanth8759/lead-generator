@@ -45,7 +45,7 @@ def get_contact_page_link(html):
                     else:
                         addLinks.append(str(j.get('href')))
     addLinks = list(dict.fromkeys(addLinks))
-    print(addLinks)
+    return addLinks
 
 
 

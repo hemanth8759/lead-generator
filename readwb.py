@@ -12,7 +12,8 @@ def get_webpage(url):
         return resp.text
 
 def get_webpage_text(html):
-    return str(html)
+    soup = BeautifulSoup(html, 'html.parser')
+    return soup.get_text()
 
 def get_list(page_html):
     soup = BeautifulSoup(page_html, 'html.parser')

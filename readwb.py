@@ -18,7 +18,7 @@ def get_list(page_html):
     companies = []
     for link in soup.find_all('a', attrs = {'class':'100link'}):
         companies.append(link.get_text()+" = "+link.get('href'))
-    print(companies)
+    return companies
 
 
 get_webpage("http://www.econtentmag.com/Articles/Editorial/Feature/The-Top-100-Companies-in-the-Digital-Content-Industry-The-2016-2017-EContent-100-114156.htm")

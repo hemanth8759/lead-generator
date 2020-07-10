@@ -26,9 +26,12 @@ def get_list(page_html):
 def get_contact_page_link(html):
     soup1 = BeautifulSoup(html, 'html.parser')
     addLinks = []
+    comp = []
     for i in soup1.find_all('a', attrs={'class': '100link'}):
         if("http://www.econtentmag.com/Articles/ArticleReader" not in str(i.get('href'))):
-            res = req.get(str(i.get('href')))
+            comp.append(i.get('href'))
+    for i in comp:
+            res = req.get(str(i))
             soup = BeautifulSoup(res.text, 'html.parser')
             for j in soup.find_all('a', href=True):
                 if ("Contact" in str(j)):
@@ -41,8 +44,8 @@ def get_contact_page_link(html):
                         addLinks.append(str(i) + str(j.get('href')))
                     else:
                         addLinks.append(str(j.get('href')))
-        addLinks = list(dict.fromkeys(addLinks))
-        return addLinks
+    addLinks = list(dict.fromkeys(addLinks))
+    print(addLinks)
 
 
 

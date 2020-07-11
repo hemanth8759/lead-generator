@@ -15,10 +15,16 @@ def get_webpage_text(html):
 def get_list(page_html):
     soup = BeautifulSoup(page_html, 'html.parser')
     companies = []
+    urls = []
+    cList = []
     for link in soup.find_all('a', attrs = {'class':'100link'}):
         if("http://www.econtentmag.com/Articles/ArticleReader" not in str(link.get('href'))):
-            companies.append(link.get_text()+" = "+link.get('href'))
-    return companies
+            companies.append(link.get_text())
+            urls.append(link.get('href'))
+    if(len(companies)==len(urls)):
+        for l in range(len(companies)):
+            cList.append(list([companies[l],urls[l]]))
+    return cList
 
 def get_contact_page_link(html):
     soup1 = BeautifulSoup(html, 'html.parser')

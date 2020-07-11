@@ -1,5 +1,8 @@
 import requests as req
 from bs4 import BeautifulSoup
+import logging
+
+logging.basicConfig(filename='error.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 def get_webpage(url):
     resp = req.get(url)
@@ -49,9 +52,12 @@ def get_contact_page_link(html):
                     else:
                         addLinks.append(str(j.get('href')))
         except req.exceptions.HTTPError as e:
-            print(e)
+            logging.warning(e)
     add_links = list(dict.fromkeys(addLinks))
     return add_links
+
+def get_location(text):
+    return
 
 
 if __name__ == "__main__":
@@ -64,3 +70,5 @@ if __name__ == "__main__":
     # print(list)
     contacts = get_contact_page_link(wbp)
     print(contacts)
+    # loc = get_location(wbpt)
+    # print(loc)

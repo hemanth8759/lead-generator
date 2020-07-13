@@ -36,23 +36,24 @@ def get_contact_page_link(html):
     for i in soup1.find_all('a', attrs={'class': '100link'}):
         if("http://www.econtentmag.com/Articles/ArticleReader" not in str(i.get('href'))):
             comp.append(i.get('href'))
-    for i in range(15,26):
+    for i in comp:
         try:
-            res = req.get(str(comp[i]))
+            res = req.get(str(i))
             soup = BeautifulSoup(res.text, 'html.parser')
             for j in soup.find_all('a', href=True):
                 if ("Contact" in str(j)):
                     if ("http" not in str(j.get('href'))):
-                        addLinks.append(str(comp[i]) + str(j.get('href')))
+                        addLinks.append(str(i) + str(j.get('href')))
                     else:
                         addLinks.append(str(j.get('href')))
                 elif ("About" in str(j)):
                     if ("http" not in str(j.get('href'))):
-                        addLinks.append(str(comp[i]) + str(j.get('href')))
+                        addLinks.append(str(i) + str(j.get('href')))
                     else:
                         addLinks.append(str(j.get('href')))
-        except req.exceptions.HTTPError as e:
-            logging.warning(e)
+        except req.exceptions.RequestException as e:
+            logging.error(e)
+        
     add_links = list(dict.fromkeys(addLinks))
     return add_links
 

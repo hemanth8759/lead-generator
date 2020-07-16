@@ -1,0 +1,64 @@
+"Acquia, Inc"
+AddressNumber,StreetName,StreetNamePostType,PlaceName,StateName,ZipCode,CountryName
+600,Congress,Ave,"Austin,",TX,78701,States
+AddressNumber,StreetName,StreetNamePostType,OccupancyIdentifier,OccupancyType,PlaceName,StateName,ZipCode,CountryName
+53,State,"Street,",10th,Floor,"Boston,",MA,02109,States
+AddressNumber,StreetNamePreDirectional,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode,CountryName
+1120,NW,Couch,St.,Suite,550,"Portland,",OR,97209,States
+AddressNumber,StreetName,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode,StreetNamePostDirectional,StreetNamePostType,CountryName
+1775,Tyson,Suite,235,"McLean,",VA,22102,s,Blvd,States
+AddressNumber,StreetName,StreetNamePostType,OccupancyIdentifier,OccupancyType,PlaceName,StateName,ZipCode
+53,State,"Street,",10th,Floor,"Boston,",MA,02109
+"Act-On Software, Inc."
+AddressNumber,StreetNamePreDirectional,StreetName,PlaceName,StateName,ZipCode
+121,SW,Morrison,"1600Portland,",OR,97204
+"Aria Systems, Inc."
+AddressNumber,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode
+94111600,Reed,"Road,",Suite,302,"Broomall,",PA,19008
+"Automattic, Inc."
+AddressNumber,StreetName,StreetNamePostType,OccupancyIdentifier,PlaceName,StateName,ZipCode,CountryName
+60,29th,Street,343,"Francisco,",CA,94110,States
+"Cloudwords, Inc."
+AddressNumber,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode
+201,California,"Street,",Suite,1350San,"Francisco,",CA,94111
+COGNITIVESCALE
+AddressNumber,StreetName,StreetNamePostType,PlaceName,StateName,ZipCode
+9500,Arboretum,"Blvd,","AUSTIN,",TX,78759
+CoreMedia AG
+AddressNumber,StreetNamePreDirectional,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode
+1001,N.,19th,"Street,","Broadway,",3rd,"FloorOakland,",CA,94607
+Crafter Software Corp.
+AddressNumber,StreetName,PlaceName,StateName,ZipCode
+1800,Bell,"400Reston,",VA,20191
+DNN Corp.
+AddressNumber,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode,CountryName
+401,Congress,"Ave,",Suite,2650,"Austin,",TX,"78701,",USA
+"EBSCO Industries, Inc."
+AddressNumber,StreetName,StreetNamePostType,PlaceName,StateName,ZipCode
+10,Estes,"Street,","Ipswich,",MA,01938
+Impelsys
+AddressNumber,StreetNamePreDirectional,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode,CountryName
+116,West,23rd,"Street,",Suite,"9536,","York,",NY,"10011,",USA
+Kentico Software
+AddressNumber,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode,CountryName
+15,Constitution,"Dr.,",Suite,2G,"Bedford,",NH,03110,States
+"MadCap Software, Inc."
+AddressNumber,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode
+9191,Centre,"Drive,",Suite,150,"Diego,",California,92122
+NewsCred
+AddressNumber,StreetNamePreDirectional,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,PlaceName,StateName,ZipCode
+400,W,Boulder,Rd,Suite,2500,"Lafayette,",CO,80026
+OneSpot
+AddressNumber,StreetName,StreetNamePostType,OccupancyType,OccupancyIdentifier,StateName,ZipCode
+401,Congress,"Avenue,",Suite,"2650Austin,",TX,78701
+"Splunk, Inc."
+AddressNumber,StreetName,StreetNamePostType,PlaceName,StateName,ZipCode
+270,Brannan,Street,"Francisco,",CA,94107
+TapClicks
+AddressNumber,StreetName,OccupancyIdentifier,StateName,ZipCode
+701,DriveSuite,"330Wakefield,",MA,01880
+Zoomin
+AddressNumber,StreetNamePreDirectional,StreetName,StreetNamePostType,OccupancyIdentifier,OccupancyType,PlaceName,StateName,ZipCode
+150,West,28th,St,17th,floor,"York,",NY,10001
+AddressNumber,StreetNamePreDirectional,StreetName,StreetNamePostType,OccupancyIdentifier,OccupancyType,PlaceName,StateName,ZipCode
+150,West,28th,"St,",17th,Floor,"York,",NY,10001

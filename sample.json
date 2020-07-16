@@ -1,103 +1,265 @@
 {
     "Acquia, Inc": [
-        [
-            "600 Congress Ave Austin, TX 78701 United States ",
-            "53 State Street, 10th Floor Boston, MA 02109 United States ",
-            "1120 NW Couch St. Suite 550 Portland, OR 97209 United States ",
-            "451 El Camino Real Suite 235 Santa Clara, CA 95050 1775 Tyson s Blvd McLean, VA 22102 United States ",
-            "310 Edward St Brisbane City QLD 4000 Australia 53 State Street, 10th Floor Boston, MA 02109 888-922-7842 Contact Us States "
-        ],
-        [
-            "53 State Street, 10th Floor Boston, MA 02109 United States ",
-            "600 Congress Ave Austin, TX 78701 United States ",
-            "53 State Street, 10th Floor Boston, MA 02109 United States ",
-            "1120 NW Couch St. Suite 550 Portland, OR 97209 United States ",
-            "451 El Camino Real Suite 235 Santa Clara, CA 95050 1775 Tyson s Blvd McLean, VA 22102 United States ",
-            "310 Edward St Brisbane City QLD 4000 Australia 53 State Street, 10th Floor Boston, MA 02109 888-922-7842 Contact Us States "
-        ],
-        "53 State Street, 10th Floor Boston, MA 02109 888-922-7842 Contact Us "
+        {
+            "AddressNumber": "600",
+            "StreetName": "Congress",
+            "StreetNamePostType": "Ave",
+            "PlaceName": "Austin,",
+            "StateName": "TX",
+            "ZipCode": "78701",
+            "CountryName": "States"
+        },
+        {
+            "AddressNumber": "53",
+            "StreetName": "State",
+            "StreetNamePostType": "Street,",
+            "OccupancyIdentifier": "10th",
+            "OccupancyType": "Floor",
+            "PlaceName": "Boston,",
+            "StateName": "MA",
+            "ZipCode": "02109",
+            "CountryName": "States"
+        },
+        {
+            "AddressNumber": "1120",
+            "StreetNamePreDirectional": "NW",
+            "StreetName": "Couch",
+            "StreetNamePostType": "St.",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "550",
+            "PlaceName": "Portland,",
+            "StateName": "OR",
+            "ZipCode": "97209",
+            "CountryName": "States"
+        },
+        {
+            "AddressNumber": "1775",
+            "StreetName": "Tyson",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "235",
+            "PlaceName": "McLean,",
+            "StateName": "VA",
+            "ZipCode": "22102",
+            "StreetNamePostDirectional": "s",
+            "StreetNamePostType": "Blvd",
+            "CountryName": "States"
+        },
+        {
+            "AddressNumber": "53",
+            "StreetName": "State",
+            "StreetNamePostType": "Street,",
+            "OccupancyIdentifier": "10th",
+            "OccupancyType": "Floor",
+            "PlaceName": "Boston,",
+            "StateName": "MA",
+            "ZipCode": "02109"
+        }
     ],
     "Act-On Software, Inc.": [
-        "121 SW Morrison St.Suite 1600Portland, OR 97204"
+        {
+            "AddressNumber": "121",
+            "StreetNamePreDirectional": "SW",
+            "StreetName": "Morrison",
+            "PlaceName": "1600Portland,",
+            "StateName": "OR",
+            "ZipCode": "97204"
+        }
     ],
     "Aria Systems, Inc.": [
-        "100 Pine Street, Suite 2450 San Francisco, CA 94111600 Reed Road, Suite 302 Broomall, PA 19008"
+        {
+            "AddressNumber": "94111600",
+            "StreetName": "Reed",
+            "StreetNamePostType": "Road,",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "302",
+            "PlaceName": "Broomall,",
+            "StateName": "PA",
+            "ZipCode": "19008"
+        }
     ],
     "Automattic, Inc.": [
-        [
-            "60 29th Street #343 San Francisco, CA 94110 United States ",
-            "of America States "
-        ]
-    ],
-    "Brightcove, Inc.": [
-        "84 Theobalds Road London WC1X 8NL+44 207 148 6450 telSeattle601 Union Street Suite 1601 "
-    ],
-    "Ceros, Inc.": [
-        "2019 Crain's Fast 50   2019 Inc. 5000 List   2018 Inc. 5000 List   "
+        {
+            "AddressNumber": "60",
+            "StreetName": "29th",
+            "StreetNamePostType": "Street",
+            "OccupancyIdentifier": "343",
+            "PlaceName": "Francisco,",
+            "StateName": "CA",
+            "ZipCode": "94110",
+            "CountryName": "States"
+        }
     ],
     "Cloudwords, Inc.": [
-        "201 California Street, Suite 1350San Francisco, CA 94111"
+        {
+            "AddressNumber": "201",
+            "StreetName": "California",
+            "StreetNamePostType": "Street,",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "1350San",
+            "PlaceName": "Francisco,",
+            "StateName": "CA",
+            "ZipCode": "94111"
+        }
     ],
     "COGNITIVESCALE": [
-        "9500 Arboretum Blvd, L-1 AUSTIN, TX 78759 855.505.5001 "
+        {
+            "AddressNumber": "9500",
+            "StreetName": "Arboretum",
+            "StreetNamePostType": "Blvd,",
+            "PlaceName": "AUSTIN,",
+            "StateName": "TX",
+            "ZipCode": "78759"
+        }
     ],
     "CoreMedia AG": [
-        "1001 N. 19th Street, Suite 1200Arlington, VA 22209+1.703.945.10791111 Broadway, 3rd FloorOakland, CA 94607"
+        {
+            "AddressNumber": "1001",
+            "StreetNamePreDirectional": "N.",
+            "StreetName": "19th",
+            "StreetNamePostType": "Street,",
+            "OccupancyType": "Broadway,",
+            "OccupancyIdentifier": "3rd",
+            "PlaceName": "FloorOakland,",
+            "StateName": "CA",
+            "ZipCode": "94607"
+        }
     ],
     "Crafter Software Corp.": [
-        "1800 Alexander Bell DriveSuite 400Reston, VA 20191"
+        {
+            "AddressNumber": "1800",
+            "StreetName": "Bell",
+            "PlaceName": "400Reston,",
+            "StateName": "VA",
+            "ZipCode": "20191"
+        }
     ],
     "DNN Corp.": [
-        " 401 Congress Ave, Suite 2650  Austin, TX 78701, USA  "
+        {
+            "AddressNumber": "401",
+            "StreetName": "Congress",
+            "StreetNamePostType": "Ave,",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "2650",
+            "PlaceName": "Austin,",
+            "StateName": "TX",
+            "ZipCode": "78701,",
+            "CountryName": "USA"
+        }
     ],
     "EBSCO Industries, Inc.": [
-        "10 Estes Street, Ipswich, MA 01938 Phone: (978) 356-6500 Toll-Free (USA & Canada): (800) 653-2726 "
+        {
+            "AddressNumber": "10",
+            "StreetName": "Estes",
+            "StreetNamePostType": "Street,",
+            "PlaceName": "Ipswich,",
+            "StateName": "MA",
+            "ZipCode": "01938"
+        }
     ],
     "Impelsys": [
-        "116 West 23rd Street, Suite 500, New York, NY 10011, USA Tel: +1 212 239 4138, Fax: +1 917 591 9536, "
+        {
+            "AddressNumber": "116",
+            "StreetNamePreDirectional": "West",
+            "StreetName": "23rd",
+            "StreetNamePostType": "Street,",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "9536,",
+            "PlaceName": "York,",
+            "StateName": "NY",
+            "ZipCode": "10011,",
+            "CountryName": "USA"
+        }
     ],
     "Kentico Software": [
-        [
-            "15 Constitution Dr., Suite 2G Bedford, NH 03110 United States ",
-            "83 Mount St, Level 4 North Sydney, NSW 2060 Australia States "
-        ]
-    ],
-    "Krux Digital, Inc.": [
-        "21 - 200 employees 201 - 10,000 employees 10,001+ employees "
-    ],
-    "Lionbridge": [
-        "1050 Winter Street, Suite 2300 Waltham, MA 02451 (World Headquarters) 3535 Factoria Boulevard SE Suite 300 Bellevue, WA 98006 423 N Ancestor Place #180 Boise, ID 83704  225 West Washington Street, Suite 2200 Chicago IL 60606  1917 McKinley Avenue Columbus, IN 47201  259 West 30th Street 11th Floor New York, NY 10001 3100 De La Cruz Blvd Suite 101 Santa Clara, CA 95054 220 Montgomery Street Suite 605 San Francisco, CA 94104 126 York Street Suite 500 Ottawa, Ontario K1N 5T5 333 Caoxi Road North, Suite B-1106 Xuhui, Shanghai, P.R.China 200030  1605 Sangam-dong Mapo-gu, Seoul 121-795  191 Silom Road Silom Bangrak, Bangkok 10500  45 All\u00e9e des Ormes \u2013 BP 1200 06254 Mougins, France  "
+        {
+            "AddressNumber": "15",
+            "StreetName": "Constitution",
+            "StreetNamePostType": "Dr.,",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "2G",
+            "PlaceName": "Bedford,",
+            "StateName": "NH",
+            "ZipCode": "03110",
+            "CountryName": "States"
+        }
     ],
     "MadCap Software, Inc.": [
-        "9191 Towne Centre Drive, Suite 150 San Diego, California                                  92122                               "
+        {
+            "AddressNumber": "9191",
+            "StreetName": "Centre",
+            "StreetNamePostType": "Drive,",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "150",
+            "PlaceName": "Diego,",
+            "StateName": "California",
+            "ZipCode": "92122"
+        }
     ],
     "NewsCred": [
-        "400 W South Boulder Rd Suite 2500 c/o NewsCred Lafayette, CO 80026 "
+        {
+            "AddressNumber": "400",
+            "StreetNamePreDirectional": "W",
+            "StreetName": "Boulder",
+            "StreetNamePostType": "Rd",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "2500",
+            "PlaceName": "Lafayette,",
+            "StateName": "CO",
+            "ZipCode": "80026"
+        }
     ],
     "OneSpot": [
-        "401 Congress Avenue, Suite 2650Austin, TX 78701 (800) 285-3806 Support "
-    ],
-    "Realview": [
-        "100 Barangaroo Avenue  Sydney, NSW 2000 Australia  "
-    ],
-    "Salesforce.com, Inc.": [
-        "15 - 100 employees 101 - 500 employees 501 - 1500 employees "
-    ],
-    "Sitecore Corp. AS": [
-        "101 California Street                 Floor 16     200 South Tyron Street                Suite 850    7950 Legacy Drive                Suite #400    1750 Elm St.                11th Floor    "
+        {
+            "AddressNumber": "401",
+            "StreetName": "Congress",
+            "StreetNamePostType": "Avenue,",
+            "OccupancyType": "Suite",
+            "OccupancyIdentifier": "2650Austin,",
+            "StateName": "TX",
+            "ZipCode": "78701"
+        }
     ],
     "Splunk, Inc.": [
-        "270 Brannan Street San Francisco, CA 94107 ",
-        " 500 Santana Row San Jose, CA 95128 phone: 408.753.1900 5360 Legacy Place, Ste 250 Plano, TX 75024 phone: 972.244.8806 1730 Minor Avenue, Suite 900 Seattle, WA 98101 phone: 206.430.5200 7900 Tysons One Place, Suite 1100 McLean, VA 22102 phone: 703.206.6400 270 Brannan Street San Francisco, CA 94107 info@splunk.com 1118 CN Schiphol phone: +31 20 7991773  18 National Circuit Barton, ACT 2600 Australia 511 Young Dong St Gangnam-gu, Seoul 06164 Republic of Korea "
+        {
+            "AddressNumber": "270",
+            "StreetName": "Brannan",
+            "StreetNamePostType": "Street",
+            "PlaceName": "Francisco,",
+            "StateName": "CA",
+            "ZipCode": "94107"
+        }
     ],
     "TapClicks": [
-        "701 Edgewater DriveSuite #330Wakefield, MA 01880"
+        {
+            "AddressNumber": "701",
+            "StreetName": "DriveSuite",
+            "OccupancyIdentifier": "330Wakefield,",
+            "StateName": "MA",
+            "ZipCode": "01880"
+        }
     ],
     "Zoomin": [
-        "150 West 28th St 17th floor New York, NY 10001 ",
-        " 150 West 28th St, 17th Floor New York, NY 10001   646.216.8876 "
-    ],
-    "ZUMOBI": [
-        "100 Best Companies to Work For 2013 iab mixx Awards 2013 Gold Winner The Smarties "
+        {
+            "AddressNumber": "150",
+            "StreetNamePreDirectional": "West",
+            "StreetName": "28th",
+            "StreetNamePostType": "St",
+            "OccupancyIdentifier": "17th",
+            "OccupancyType": "floor",
+            "PlaceName": "York,",
+            "StateName": "NY",
+            "ZipCode": "10001"
+        },
+        {
+            "AddressNumber": "150",
+            "StreetNamePreDirectional": "West",
+            "StreetName": "28th",
+            "StreetNamePostType": "St,",
+            "OccupancyIdentifier": "17th",
+            "OccupancyType": "Floor",
+            "PlaceName": "York,",
+            "StateName": "NY",
+            "ZipCode": "10001"
+        }
     ]
 }
